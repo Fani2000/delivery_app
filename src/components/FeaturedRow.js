@@ -30,7 +30,7 @@ const FeaturedRow = ({ title, description, id }) => {
       });
   }, []);
 
-  // console.log(restaurants);
+  console.log(restaurants);
 
   return (
     <View>
@@ -57,7 +57,7 @@ const FeaturedRow = ({ title, description, id }) => {
             rating={restaurant.rating}
             genre={restaurant.type.name}
             address={restaurant.address}
-            short_description={restaurant.short_description}
+            shortDescription={restaurant.shot_description}
             dishes={restaurant.dishes}
             long={restaurant.lat}
             lat={restaurant.lng}
